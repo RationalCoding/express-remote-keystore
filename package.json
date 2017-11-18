@@ -1,0 +1,24 @@
+{
+  "name": "express-remote-keystore",
+  "version": "1.0.0",
+  "description": "Express middleware for accessing a keystore over HTTP.",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "standard --fix src/** && tape test/*.js"
+  },
+  "author": "Thomas Mullen",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.16.2",
+    "http": "0.0.0",
+    "standard": "^8.6.0",
+    "tape": "^4.6.3"
+  },
+  "dependencies": {
+    "node-persist": "^2.1.0",
+    "url": "^0.11.0"
+  }
+}
